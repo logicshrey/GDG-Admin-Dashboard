@@ -1,0 +1,82 @@
+.attendance-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .button-container {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .export-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .export-button:hover {
+    background-color: #45a049;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .attendance-table th,
+  .attendance-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .attendance-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .attendance-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  .attendance-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .attendance-detail {
+    margin-bottom: 8px;
+  }
+  
+  .attendance-detail:last-child {
+    margin-bottom: 0;
+  }
+  
+  .session-detail {
+    margin-bottom: 4px;
+  }
+  
+  .session-detail:last-child {
+    margin-bottom: 0;
+  }
+  
+  .time {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .reason {
+    font-style: italic;
+    color: #555;
+    margin-top: 4px;
+  }
+  
+
